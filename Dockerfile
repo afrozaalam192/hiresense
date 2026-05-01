@@ -2,7 +2,7 @@ FROM tomcat:10.1-jdk21
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY HireSense.war /usr/local/tomcat/webapps/ROOT.war
+COPY HireSense.war /usr/local/tomcat/webapps/HireSense.war
 
 EXPOSE 8080
 
